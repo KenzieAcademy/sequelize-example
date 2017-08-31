@@ -1,3 +1,5 @@
+// This file was created with:
+//  sequelize model:create --name Todo --attributes "title:string done:boolean"
 'use strict';
 module.exports = {
   up: function(queryInterface, Sequelize) {

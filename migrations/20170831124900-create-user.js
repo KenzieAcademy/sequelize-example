@@ -1,3 +1,5 @@
+// This file was created with:
+//  sequelize model:create --name User --attributes "name:string email:string bio:string"
 'use strict';
 module.exports = {
   up: function(queryInterface, Sequelize) {
